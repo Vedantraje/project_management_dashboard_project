@@ -1,0 +1,43 @@
+.schmain
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1 rem;
+
+}
+.call
+{
+    color: red;
+    align-items: center;
+}
+.btninv
+{
+    color: blue;
+    margin-left: 3rem;
+}
+.grid1
+{
+    display: flex;
+    flex-direction: row;
+}
+.cardc1
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.cardData3
+{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: rgb(113, 232, 113);
+    color: white;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;   
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+.head
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+}
+.btn1
+{
+   
+    float: right;
+    margin-left: 25rem;
+    border-radius: 30%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.btn2
+{
+    background-color: blue;
+    color: white;
+    float: right;
+    border-radius: 30%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.table1
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}

@@ -1,0 +1,50 @@
+/*Sidebar*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 4rem;
+    margin-left: 1rem;
+  }
+  /* logo */ 
+  .logo {
+    display: flex;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  } 
+  .logo > img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+/*Menu*/
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  }
+.menuData1
+  {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 2rem;
+        margin-left: 2rem;
+        position: relative;
+        border-radius: 0.7rem;
+        font-size: 18px;
+      }
+      .menuData2
+  {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 4rem;
+        margin-left: 2rem;
+        position: relative;
+        border-radius: 0.7rem;
+        font-size: 18px;
+      }

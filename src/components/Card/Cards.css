@@ -1,0 +1,32 @@
+.cardc1
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.cardData1
+{
+    display: flex;
+    flex: 1;
+    height: 7rem;
+    border-radius: 1rem;
+    background-color: pink;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;   
+}
+.cardData2
+{
+    display: flex;
+    flex: 1;
+    height: 7rem;
+    border-radius: 0.9rem;
+    background-color: rgb(110, 110, 215);
+    color: white;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}

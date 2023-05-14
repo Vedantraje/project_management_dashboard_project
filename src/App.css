@@ -1,11 +1,19 @@
 .App {
-  text-align: center;
+margin: 0;
+padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_main{
+  display: grid;
+  height: 97%;
+  width: 97%;
+  border-radius: 2rem;
+  gap: 16px;
+  grid-template-columns: 12rem auto 20rem;
+  overflow: hidden;
+
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +21,9 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
+
 
 @keyframes App-logo-spin {
   from {
