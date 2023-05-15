@@ -12,7 +12,7 @@ function Schedule() {
       </div>
       <div className="cardc1">
         <div className="cardData3">
-          <Card style={{ width: "14rem" }}>
+          <Card style={{ width: "18rem" }}>
             <Card.Body>
               <Table striped>
                 <thead>
@@ -23,7 +23,7 @@ function Schedule() {
                       <i class="bi bi-people-fill"></i>
                     </th>
                     <th style={{ paddingLeft: "2rem" }}>12.35</th>
-                    <th style={{ paddingLeft: "2rem" }}>
+                    <th style={{ paddingLeft: "6rem" }}>
                       <i class="bi bi-telephone-fill"></i>
                     </th>
                     <th>

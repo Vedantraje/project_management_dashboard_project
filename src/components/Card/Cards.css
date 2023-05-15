@@ -6,11 +6,11 @@
     gap: 1rem;
 
 }
-.cardData1
+#cardData1
 {
     display: flex;
     flex: 1;
-    height: 7rem;
+    height: 6rem;
     border-radius: 1rem;
     background-color: pink;
     color: white;
@@ -18,11 +18,11 @@
     position: relative;
     cursor: pointer;   
 }
-.cardData2
+#cardData2
 {
     display: flex;
     flex: 1;
-    height: 7rem;
+    height: 6rem;
     border-radius: 0.9rem;
     background-color: rgb(110, 110, 215);
     color: white;

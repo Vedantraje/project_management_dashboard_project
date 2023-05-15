@@ -6,15 +6,16 @@ import { CardData1, CardData2 } from '../Data/Data';
 export default function Cards() {
   return (
     <div className="cardc1">
+    
       {CardData1.map((item, index) => {
         return (
-          <div key={index} className="cardData1">
+          <div key={index} id="cardData1">
             <Card style={{ width: '14rem' }}>
-              {item.icon}
               <Card.Body>
+              {item.icon}
                 <Card.Title>{item.heading}</Card.Title>
                 <br />
-                {item.people}
+                {item.people}{item.people}{item.people}{item.people}
 
               </Card.Body>
             </Card>
@@ -24,13 +25,13 @@ export default function Cards() {
 
       {CardData2.map((item, index) => {
         return (
-          <div key={index} className="cardData2">
+          <div key={index} id="cardData2">
             <Card style={{ width: '14rem' }}>
-              {item.icon}
               <Card.Body>
+               {item.icon}
                 <Card.Title>{item.heading}</Card.Title>
                 <br />
-                {item.people}
+                {item.people}{item.people}{item.people}{item.people}
               </Card.Body>
             </Card>
           </div>

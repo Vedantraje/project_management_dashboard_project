@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/profile.png";
+import plus from '../../images/plus.png'
 import { SidebarData1,SidebarData2 } from "../Data/Data";
 import "./Sidebar.css";
 function Sidebar() {
@@ -14,28 +15,33 @@ function Sidebar() {
       {/*Menu*/}
 
       <div className="menu">
-        <h2 align="center">Menu</h2>
+        <span id= "sideheading">Menu</span>
         {SidebarData1.map((item, index) => {
           return (
-            <div key={index} className="menuData1">
+            <div key={index} id="menuData1">
               {item.icon}
-              <span>{item.heading}</span>
+              <span className="fav1">{item.heading}</span>
             </div>
           );
         })}
 
-        <h2 align="center">Favorites</h2>
+        <span id="sideheading1">Favorites</span>
         {SidebarData2.map((item, index) => {
           return (
-            <div key={index} className="menuData2">
+            <div key={index} id="menuData2">
               {item.icon}
-              <span>{item.heading}</span>
+              <span className="fav1">{item.heading}</span>
             </div>
           );
         })}
        
       </div>
-    </div>
+
+<div className="plus">
+        <img src={plus} alt="profile_img" />
+      </div>
+      <span id="sp1">@2023 All Vedant Licence</span>
+</div>
   );
 }
 
